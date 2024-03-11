@@ -1,0 +1,39 @@
+
+INHERIT: config/nav.yaml
+
+site_name: PATTERN
+site_url: https://pattern.github.io
+site_author: CRYPTECS Consortium
+site_description: >-
+  PATTERN Chist-era Project Website
+copyright: "Copyright © 2024 The PATTERN Consortium"
+repo_url: https://github.com/CHISTERA-PATTERN/pattern.github.io
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+  palette:
+    - scheme: slate
+      primary: blue
+      accent: indigo
+  logo: assets/images/logo.svg
+  favicon: assets/favicon.png
+  custom_dir: overrides
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      htmlmin_opts:
+        remove_comments: true

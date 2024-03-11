@@ -1,0 +1,15 @@
+#
+# Copyright (c) 2022 - for information on the respective copyright owner
+# see the NOTICE file and/or the repository https://github.com/cryptecs/cryptecs.github.io.
+#
+# SPDX-License-Identifier: CC-BY-4.0
+#
+nav:
+  - Home: index.md
+  - Mission: about/mission.md
+  - Consortium: consortium/consortium.md
+  - Dissemination:
+      - Deliverables: dissemination/deliverables.md
+      - Publications: dissemination/publications.md
+  - Legal Information:
+      - Privacy Policy: legal/privacy-policy.md
