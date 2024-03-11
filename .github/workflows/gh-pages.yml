@@ -14,6 +14,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v4
@@ -42,9 +46,11 @@ jobs:
         # Include any other dependencies or plugins required by your MkDocs setup
         run: |
           pip install mkdocs-material mkdocs-minify-plugin
-          
+        
+      - name: Build
+        run: mkdocs build
 
-      - name: Build and Deploy
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           # This uses a built-in GitHub token for authentication with the GitHub Pages server
