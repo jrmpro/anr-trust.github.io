@@ -2,12 +2,12 @@
 INHERIT: config/nav.yaml
 
 site_name: PATTERN
-site_url: https://pattern.github.io
+site_url: https://chistera-pattern.github.io
 site_author: CRYPTECS Consortium
 site_description: >-
   PATTERN Chist-era Project Website
 copyright: "Copyright © 2024 The PATTERN Consortium"
-repo_url: https://github.com/CHISTERA-PATTERN/pattern.github.io
+repo_url: https://github.com/chistera-pattern/chistera-pattern.github.io
 theme:
   name: material
   features:
