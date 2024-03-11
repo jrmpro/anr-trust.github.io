@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2022 - for information on the respective copyright owner
+# Copyright (c) 2024 - for information on the respective copyright owner
 # see the NOTICE file and/or the repository https://github.com/CHISTERA-PATTERN/pattern.github.io.
 #
 # SPDX-License-Identifier: CC-BY-4.0
@@ -9,29 +9,44 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main  # Or master, depending on your default branch name
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v4
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+        with:
+          # This makes the GitHub Actions token available to the MkDocs command
+          # It's necessary for the `gh-deploy` command to push to the gh-pages branch.
+          persist-credentials: true
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-      - uses: actions/cache@v4
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
         with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
+          # This caches installed pip packages between runs to speed up the build process
+          path: |
+            ~/.cache/pip
+            .cache
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
-            mkdocs-material-
+            ${{ runner.os }}-pip-
+
       - name: Install Material for MkDocs
-        run: pip install mkdocs-material mkdocs-minify-plugin
-      - name: Deploy site
-        run: mkdocs gh-deploy --force
+        # Include any other dependencies or plugins required by your MkDocs setup
+        run: |
+          pip install mkdocs-material mkdocs-minify-plugin
+          
+
+      - name: Build and Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          # This uses a built-in GitHub token for authentication with the GitHub Pages server
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site  # Directory where MkDocs outputs the built site, check your mkdocs.yml
