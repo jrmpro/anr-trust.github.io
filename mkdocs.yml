@@ -25,11 +25,11 @@ theme:
   logo: assets/images/logo.svg
   favicon: assets/favicon.png
   custom_dir: overrides
-# markdown_extensions:
-#   - attr_list
-#   # - pymdownx.emoji:
-#   #     emoji_index: !!python/name:materialx.emoji.twemoji
-#   #     emoji_generator: !!python/name:materialx.emoji.to_svg
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 plugins:
   - search
   - minify:
