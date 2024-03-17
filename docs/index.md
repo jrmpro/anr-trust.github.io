@@ -1,4 +1,4 @@
 ---
-title: Home
+title: PATTERN
 template: home.html
 ---
