@@ -11,5 +11,5 @@ The PATTERN project consortium is a collaborative group comprised of leading aca
 **Team**: [Orhan Ermis](https://scholar.google.com.tr/citations?user=_b6dDHMAAAAJ&hl=en) Research Associate, [Qiang Tang](http://www.tangqiang.eu/) Research Group Leader.
  
 - <img src="assets/images/romania-flag.svg" alt="Romania" class="flag-icon"> **[University of Bucharest](https://unibuc.ro/?lang=en) (UB)**: UB adds significant value in the areas of cryptography, privacy, and computer science. The University's team is involved in developing privacy-enhancing tools and integrity tools, particularly focusing on MPC-based and ZK techniques. UB leads dissemination and communication activities.<br>
-**Team**: [Ruxandra F. Olimid](https://unibuc.ro/user/ruxandra.olimid/?lang=en) Associate Professor, [Alin Stefanescu](https://unibuc.ro/user/alin.stefanescu/?lang=en) Professor, Miruna Rosca Postdoctoral Researcher, Marius Baloi PhD student, Nicoleta Dumitru PhD student, Andreea Dragnoiu PhD student, Mihail Plesa PhD student
+**Team**: [Ruxandra F. Olimid](https://unibuc.ro/user/ruxandra.olimid/?lang=en) Associate Professor, [Alin Stefanescu](https://unibuc.ro/user/alin.stefanescu/?lang=en) Professor, Marius Baloi PhD student, Nicoleta Dumitru PhD student, Andreea Dragnoiu PhD student, Mihail Plesa PhD student
  
