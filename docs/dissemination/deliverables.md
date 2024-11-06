@@ -8,4 +8,4 @@ you need access to deliverables classified as internal please get in touch.
 
 **D2.1** Use Case Specification ([:fontawesome-regular-file-pdf: .pdf][D2.1]{:target="_blank"})
 
-[D2.1]: https://drive.google.com/file/d/1_TPaMSNGCHpXFKuRw_QPePhFFeSJnjP4/view?usp=sharing
+[D2.1]: https://drive.google.com/file/d/1A18Oll2maAI7JE04mbCjLfHXizuG_-PD/view?usp=sharing
