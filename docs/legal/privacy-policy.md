@@ -12,7 +12,7 @@ security and integrity of this Website and the Service. See the
 
 ### Website Analytics
 
-The PATTERN project website is committed to ensuring the privacy and anonymity of its visitors. No analytics or tracking mechanisms are employed on the website to monitor user behavior. We respect the privacy of our users and do not collect or analyze any data related to website usage. Visitors can browse the website without concern for privacy intrusion, as we do not track user activities or store any personal information. Our commitment to privacy extends to every aspect of our project, reflecting the core values of the PATTERN initiative.  
+The TRUST project website is committed to ensuring the privacy and anonymity of its visitors. No analytics or tracking mechanisms are employed on the website to monitor user behavior. We respect the privacy of our users and do not collect or analyze any data related to website usage. Visitors can browse the website without concern for privacy intrusion, as we do not track user activities or store any personal information. Our commitment to privacy extends to every aspect of our project, reflecting the core values of the TRUST initiative.  
 
 ## Cookie Usage
 
