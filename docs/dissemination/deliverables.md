@@ -1,6 +1,6 @@
 # Deliverables
 
-Find below the deliverables released so far by the PATTERN consortium. In case
+Find below the deliverables released so far by the TRUST consortium. In case
 you need access to deliverables classified as internal please get in touch.
 
 
