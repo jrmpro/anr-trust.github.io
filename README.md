@@ -1,2 +1,2 @@
-# pattern.github.io
+# trust.github.io
 Website for the collaborative project PATTERN
