@@ -1,13 +1,13 @@
 
 INHERIT: config/nav.yaml
 
-site_name: PATTERN
-site_url: https://chistera-pattern.github.io
-site_author: CRYPTECS Consortium
+site_name: TRUST
+site_url: https://anr-trust.github.io
+site_author: TRUST Consortium
 site_description: >-
-  PATTERN Chist-era Project Website
-copyright: "Copyright © 2024 The PATTERN Consortium"
-repo_url: https://github.com/chistera-pattern/chistera-pattern.github.io
+  TRUST ANR Project Website
+copyright: "Copyright © 2024 The TRUST Consortium"
+repo_url: https://github.com/anr-trust/anr-trust.github.io
 theme:
   name: material
   features:
