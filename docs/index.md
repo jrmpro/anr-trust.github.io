@@ -1,4 +1,4 @@
 ---
-title: PATTERN
+title: TRUST
 template: home.html
 ---
