@@ -6,7 +6,7 @@ you need access to deliverables classified as internal please get in touch.
 
 ## WP2 Requirements Elicitation and Technical Analysis
 
-**D2.1** Use Case Specification ([D2.1]{:target="_blank"})
+**D2.1** Use Case Specification ([D2.1][:target="_blank"])
 
 [D2.1]: https://drive.google.com/file/d/1_TPaMSNGCHpXFKuRw_QPePhFFeSJnjP4/view?usp=sharing
 
