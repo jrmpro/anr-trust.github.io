@@ -7,7 +7,7 @@ site_author: TRUST Consortium
 site_description: >-
   TRUST ANR Project Website
 copyright: "Copyright © 2024 The TRUST Consortium"
-repo_url: https://github.com/anr-trust/anr-trust.github.io
+repo_url: https://github.com/jrmpro/anr-trust.github.io
 theme:
   name: material
   features:
